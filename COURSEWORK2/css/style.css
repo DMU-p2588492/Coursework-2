@@ -1,0 +1,267 @@
+
+
+body{
+  background-color: grey;
+}
+/*Title and Menu links which are on every page*/
+.Title{
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: fantasy;
+}
+
+.HomeLink{
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 25px;
+
+}
+
+.AboutLink{
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.PerformancesLink{
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.MusicLink{
+  color: white;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+/*Page 1 css*/
+.WelcomeSubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.Introduction{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.HomePagePic{
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+
+.LatestReleasesSubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.LatestReleasesParagraph{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.MusicVideoSubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 25px;
+}
+
+.MusicVideoCaption1{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.MusicVideoCaption2{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+/*Page 2 css*/
+.AboutSubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.AboutParagraph{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.HistorySubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.HistoryParagraph{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.InterviewSubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.AudioInterviewParagraph{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+/*Page 3 css*/
+.performancespagesubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.performancespagesentence{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.Venue1{
+  height: 90px;
+  width: 110px;
+}
+
+.Venue2{
+  height: 90px;
+  width: 110px;
+}
+
+.Venue3{
+  height: 90px;
+  width: 110px;
+}
+
+.TicketLinks{
+  text-align: center;
+}
+
+.VenueDescription{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.PastPerformancesSubheading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Liveperformances{
+  text-align: center;
+}
+
+.Pastperformancescaption{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.GalleryHeading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.Gallery{
+  text-align: center;
+}
+
+.Gallery1{
+  height: 140px;
+  width: 160px;
+}
+
+.Gallery2{
+  height: 140px;
+  width: 160px;
+}
+
+.Gallery3{
+  height: 140px;
+  width: 160px;
+}
+
+.Gallery4{
+  height: 140px;
+  width: 160px;
+}
+
+/*Page 4 css*/
+.MusicPageHeading{
+  color: white;
+  font-family: inherit;
+  font-size: 35px;
+  text-align: center;
+}
+
+.MusicPageDescription{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.PopularReleases{
+  color: white;
+  font-family: serif;
+  font-size: 25px;
+}
+
+.SongCovers{
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+.SongNames{
+  font-size: 25px;
+  font-family: fantasy;
+  color: white;
+  margin-left: auto;
+}
+
+.SongAudio{
+  width: 250px;
+  height: 20px;
+}
+
+.ReviewLink{
+  color: white;
+  font-family: serif;
+  font-size: 20px;
+}
+
+.AlbumsHeading{
+  color: white;
+  font-family: inherit;
+  font-size: 25px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0"/>
+    <title>$UICIDEBOY$</title>
+    <link rel="stylesheet" href="css\style.css" type="text/css">
+<!--- this is the code that creates a popup for the reviews of the songs.-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v0.5.3/dist/jBox.all.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v0.5.3/dist/jBox.all.min.css" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <!--- this is the code that creates the Title of the website--->
+    <h1 class="Title">$UICIDEBOY$</h1>
+<!--- this code creates All the pages links, which appear on every page--->
+    <a class="HomeLink" href="homepage.html">Home</a>
+    <a class="AboutLink" href="aboutpage.html">About</a>
+    <a class="PerformancesLink" href="performancespage.html">Performances</a>
+    <a class="MusicLink" href="musicpage.html">Music</a>
+
+    <h2 class="MusicPageHeading">Music</h2>
+
+    <p class="MusicPageDescription">Welcome to the music page. This is where you can find all $uicideboy$'s music along with reviews and links to Spotify by simply clicking on the song cover</p>
+
+    <h2 class="PopularReleases">Popular Releases</h2>
+
+<!--- this code links with the pop up code at the start and it is the link for the popup of the reviews--->
+    <div id="myModal" class="ReviewLink">Click here to see the reviews</div>
+      <script>
+
+      new jBox('Modal', {
+          width: 300,
+          height: 300,
+          attach: '#myModal',
+          title: 'Avalon Review',
+          content: 'Scrim showcasing that his skills as a producer never truly got weaker and that he is still deeply connected to his Memphis roots, really cloudy beat also but the lyrics seems to be average by their standards. I gotta say, its one of the best tracks on the new album but it sometimes feel they already reached their peak on 2016/17 and are just running extra laps now.'
+
+      });
+
+         </script>
+
+<!--- this code creates links for the songs by clicking on the images. it also has an audio element  --->
+<section class="Songs">
+    <a href="https://open.spotify.com/artist/1VPmR4DJC1PlOtd0IADAO0"><img class="SongCovers"src="img\1st album cover.webp" alt="SongCovers"></a>
+    <p class="SongNames">Avalon</p>
+    <audio controls class="SongAudio">
+      <source src="audio\audio for inteviews.mp3" type="audio/mp3">
+        <source src="audio\audio for interviews.wav" type="audio/wav">
+          <source src="audio\audio for interviews.ogg" type="audio/ogg">
+    </audio>
+
+  </section>
+
+  <section class="Songs">
+      <a href="https://open.spotify.com/artist/1VPmR4DJC1PlOtd0IADAO0"><img class="SongCovers"src="img\2nd album cover.png" alt="SongCovers"></a>
+      <p class="SongNames">All Dogs Go To Heaven</p>
+      <audio controls class="SongAudio">
+        <source src="audio\audio for inteviews.mp3" type="audio/mp3">
+          <source src="audio\audio for interviews.wav" type="audio/wav">
+            <source src="audio\audio for interviews.ogg" type="audio/ogg">
+      </audio>
+      <!--- this code links with the pop up code at the start and it is the link for the popup of the reviews--->
+      <div id="myModal" class="ReviewLink"></div>
+        <script>
+
+        new jBox('Modal', {
+            width: 300,
+            height: 300,
+            attach: '#myModal',
+            title: 'All Dogs Go To Heaven Review',
+            content: 'Before even getting into the single itself, let me say that while it might not be my personally most enjoyed album, I consider it to be one of the few perfect albums ever made. Unlike alot of albums that have effects in them that are generally hit-and-miss, everything in it sounded like it fit in exactly the way that Waters, Gilmour and company wanted it to. Keeping that in mind, it should be no suprise Im a fan of the hit single it spawne'
+
+        });
+
+           </script>
+    </section>
+
+    <section class="Songs">
+        <a href="https://open.spotify.com/artist/1VPmR4DJC1PlOtd0IADAO0"><img class="SongCovers"src="img\eternal grey album cover.jfif" alt="SongCovers"></a>
+        <p class="SongNames">Eternal Grey</p>
+        <audio controls class="SongAudio">
+          <source src="audio\audio for inteviews.mp3" type="audio/mp3">
+            <source src="audio\audio for interviews.wav" type="audio/wav">
+              <source src="audio\audio for interviews.ogg" type="audio/ogg">
+        </audio>
+
+        <!--- this code links with the pop up code at the start and it is the link for the popup of the reviews--->
+        <div id="myModal" class="ReviewLink"></div>
+          <script>
+
+          new jBox('Modal', {
+              width: 300,
+              height: 300,
+              attach: '#myModal',
+              title: 'Eternal Grey Review',
+              content: 'I cant help but assume this single was released to milk more money out of their massively successful album sales, as well as to get more radios to play the music. Although this is normal capitalistic measures, I find it hugely ironic that they chose the song as the single, a song whose concept revolves around greed. To promote anti-greed, they need to be greedy.'
+
+          });
+
+             </script>
+      </section>
+
+<br>
+<h2 class="AlbumsHeading">Albums</h2>
+
+<section class="Songs">
+<a href="https://open.spotify.com/artist/1VPmR4DJC1PlOtd0IADAO0"><img class="SongCovers"src="img\album cover.jfif" alt="SongCovers"></a>
+    <p class="SongNames">Patience</p>
+    <audio controls class="SongAudio">
+      <source src="audio\audio for inteviews.mp3" type="audio/mp3">
+        <source src="audio\audio for interviews.wav" type="audio/wav">
+          <source src="audio\audio for interviews.ogg" type="audio/ogg">
+    </audio>
+
+    <section class="Songs">
+        <a href="https://open.spotify.com/artist/1VPmR4DJC1PlOtd0IADAO0"><img class="SongCovers"src="img\aliens are ghosts cover.jpg" alt="SongCovers"></a>
+        <p class="SongNames">Aliens are Ghosts</p>
+        <audio controls class="SongAudio">
+          <source src="audio\audio for inteviews.mp3" type="audio/mp3">
+            <source src="audio\audio for interviews.wav" type="audio/wav">
+              <source src="audio\audio for interviews.ogg" type="audio/ogg">
+        </audio>
+
+        <section class="Songs">
+            <a href="https://open.spotify.com/artist/1VPmR4DJC1PlOtd0IADAO0"><img class="SongCovers"src="img\SuicideBoys_NewOrleans album cover.jpg" alt="SongCovers"></a>
+            <p class="SongNames">New Orleans</p>
+            <audio controls class="SongAudio">
+              <source src="audio\audio for inteviews.mp3" type="audio/mp3">
+                <source src="audio\audio for interviews.wav" type="audio/wav">
+                  <source src="audio\audio for interviews.ogg" type="audio/ogg">
+            </audio>
+
+
+
+
+
+
+
+  </body>
+</html>
